@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 945px;
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    background-color: #23232e;
+    color: #fff;
+}
+
+.header {
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 44px;
+}
+
+.logo {
+    margin-bottom: 155px;
+}
+
+.header-title {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 43px;
+    letter-spacing: 2.5px;
+}
+
+.header-text {
+    font-size: 14.8px;
+    line-height: 28px;
+    margin-bottom: 180px;
+}
+
+.skrol {
+    cursor: pointer;
+}
+
+
+
+/* section */
+
+
+main {
+    background: url(../images/bg.png);
+}
+
+.text-me {
+    padding: 112px 37px 0 37px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+.text-me p {
+    margin-bottom: 42px;
+}
+
+.what-i-do {
+    padding: 50px 0 130px;
+    text-align: center;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-size: 80px;
+    margin-bottom: 70px;
+}
+
+.skils-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.skils-list li {
+    width: 32%;
+}
+
+.skils-list h4 {
+    margin-bottom: 20px;
+}
+
+.skils-list p {
+    line-height: 1.6em;
+}
+
+
+@media (max-width:990px) {
+    .text-me {
+        font-size: 20px;
+    }
+
+    .skils-list {
+        display: block;
+
+    }
+
+    .skils-list li {
+        margin: 0 auto;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:770px) {
+    .header {
+        padding-top: 30px;
+    }
+
+    .header-text {
+        margin-bottom: 60px;
+    }
+
+    .logo {
+        margin-bottom: 40px;
+    }
+
+    .text-me {
+        padding-top: 40px;
+    }
+
+    .what-i-do {
+        padding-top: 0;
+    }
+
+    .section-title {
+        margin-bottom: 25px;
+    }
+
+    .skils-list li {
+        width: 70%;
+    }
+
+    .skrol img {
+        width: 30px;
+    }
+}
+
+@media (max-width:640px) {
+    .logo img {
+        width: 120px;
+    }
+
+    .header-title {
+        font-size: 50px;
+    }
+
+    .section-title {
+        font-size: 50px;
+    }
+}
+
+
+@media (max-width:400px) {
+    .logo img {
+        width: 100px;
+    }
+
+    .header-text {
+        font-size: 12px;
+    }
+
+    .header-title {
+        font-size: 35px;
+    }
+
+    .section-title {
+        font-size: 35px;
+    }
+
+    .text-me {
+        font-size: 15px;
+    }
+
+    .skils-list h4 {
+        font-size: 15px;
+    }
+
+    .skils-list p {
+        font-size: 12px;
+    }
+}
